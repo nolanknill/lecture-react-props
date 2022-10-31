@@ -1,4 +1,5 @@
 import Plan from "../Plan/Plan";
+import "./PlanList.scss";
 
 function PlanList() {
     const plansData = [
@@ -44,7 +45,7 @@ function PlanList() {
     ];
 
     return (
-        <>
+        <section className="plan-list">
             {plansData.map((plan) => {
                 return (
                     <Plan
@@ -58,7 +59,7 @@ function PlanList() {
                 );
             })}
 
-        </>
+        </section>
     )
 }
 

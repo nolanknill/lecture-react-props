@@ -1,6 +1,7 @@
 .plan {
     position: relative;
     width: 15rem;
+    margin: 0 1rem;
 
     &__button {
         padding: 1rem;
@@ -8,6 +9,8 @@
         border: 2px solid blue;
         border-radius: 0.5rem;
         color: blue;
+        display: block;
+        text-align: center;
 
         &--featured {
             background-color: blue;
@@ -15,7 +18,8 @@
         }
     }
 
-    &__star {
+    &__star::before {
+        content: "⭐️";
         position: absolute;
         top: 0;
         right: 0;
