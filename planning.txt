@@ -1,0 +1,17 @@
+Planning
+
+App
+
+    PageDetails
+        - title: "Pricing"
+        - description: "Quickly build..."
+    
+    PlanList
+        - array of plan objects
+
+        Plan x3
+            - featured: boolean
+            - name: "free", "pro", "enterprise"
+            - price: 0, 15, 30
+            - features: [,,,], [,,,]
+            - buttonText: "Sign up for free", "Get started", "Contact us"
